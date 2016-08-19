@@ -1,0 +1,334 @@
+
+/*GENERAL RULES*/
+
+li{
+	list-style: none;
+}
+
+img{
+	width: 400px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+p, h1, h2, h3, a{
+	font-family: Josefin Sans;
+}
+
+p {
+	font-size: 1.25em;
+	color: #666;
+	line-height: 1.25em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+
+/*NAVIGATION*/
+
+.head-container {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #f2f2f2;
+	text-align: center;
+	padding-bottom: 2.5px;
+}
+
+.wrapper ul{
+	padding: 0;
+	margin: 0;
+	padding-bottom: 40px;
+}
+
+#student-name {
+	margin-top: 0;
+	padding-top: 21.440px;
+}
+
+.main-nav li{
+	padding: 10px 25px;
+	background-color: #fff;
+	margin: 5px auto;
+	max-width: 80%;
+}
+
+.main-nav a{
+	font-weight: 600;
+}
+
+/*INTRO*/
+
+.intro{
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+
+.img-div img{
+	width: 225px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.intro-content {
+		padding: 20px 10px;
+	}
+
+.col {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+/*PRIMARY CONTENT*/
+
+.container{
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.col img {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+}
+
+.col p {
+	max-width: 80%;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+
+#portfolio, #contact{
+	text-align: center;
+	padding: 2.5em 0;
+	font-weight: bolder;
+}
+
+.primary-content, .content, .contact-info{
+	text-align: center;
+	padding: 0 10px;
+	padding-bottom: 15px;
+}
+
+.primary-content ul{
+	padding: 0;
+}
+
+.primary-content li{
+	padding: 20px 0;
+}
+
+.primary-content h3{
+	padding-top: .15em;
+	font-weight: 800;
+}
+
+
+/*CONTACT CONTENT*/
+
+.contact {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+
+span {
+	font-weight: bolder;
+	padding-left: .5em
+}
+
+
+/*FOOTER CONTENT*/
+
+
+.foot-nav{
+	display: none;
+	float: right;
+}
+
+.foot-head, #nav-up a{
+	font-weight: 600;
+	font-size: 1em;
+	color: inherit;
+	margin: 0;
+}
+
+.foot-head {
+	margin: 23px 0;
+	font-weight: 600;
+	font-size: .75em;
+	float: left;
+}
+
+.foot-head h2{
+	margin: 0;
+}
+
+#nav-up a{
+	display: inline-block;
+	font-weight: 600;
+	font-size: .75em;
+	margin: 23px 0;
+}
+
+#nav-up {
+	float: right;
+}
+
+
+.foot-container {
+	margin: 0 20px;
+	border-top: 1px solid #666;
+}
+
+.footer {
+	background-color: #f2f2f2;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 768px) {
+
+	.wrapper {
+		max-width: 80%;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+
+
+	.main-nav li{
+		display: inline-block;
+		background-color: #f2f2f2;
+	}
+
+
+	.intro {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		max-width: 100%;
+	}
+
+	.img-div, .intro-content{
+		display: block;
+	}
+
+	.img-div {
+		width: 30%;
+		float: right;
+		padding-right: 7.5%;
+	}
+
+	.intro-content {
+		width: 50%;
+		float: left;
+		text-align: left;
+		padding-left: 7.5%;
+		vertical-align: top;
+	}
+
+
+	.img-div img{
+		width: 100%;
+		max-width: 300px;
+	}
+
+
+	.primary-content li {
+		width: 47.2%;
+		padding: 0;
+		margin: 2% 1.25%;
+		float: left;
+	}
+
+	.contact .col p{
+		max-width: 600px;
+	}
+
+
+
+.cf::after {
+    content: "";
+    display: table; 
+    clear: both;
+}
+
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+	
+	
+	#student-name{
+		float: left;
+		padding-top: 0;
+		padding-left: 20px;
+		margin-top: 5px;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav ul{
+		padding: 0;
+	}
+
+	.primary-content li{
+		max-width: 30.633333%;
+		padding: 0;
+		margin: 2% 1.25%;
+	}
+
+	#nav-up {
+		display: none;
+	}
+
+	.foot-nav, .foot-nav li{
+		display: inline-block;
+	}
+
+	.foot-nav ul {
+		display: inline-block;
+		margin: 20px 0;
+	}
+
+	.foot-nav a{
+		font-weight: 600;
+		font-size: .75em;
+		color: inherit;
+		margin: 0;
+		padding: 0 10px;
+	}
+
+
+	.container, .intro .col, .contact .col {
+		max-width: 1260px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
